@@ -32,6 +32,31 @@
                         </li>
                     </ul>
                 </div>
+                <div class="modulo azul-escuro">
+                    <h3>Módulo PHP - Orientação a Objetos</h3>
+                    <ul>
+                        <li>
+                            <a href="view.php?dir=classes_obj&file=classe">
+                                <span class="number">01.</span> Primeira Classe
+                            </a>
+                        </li>
+                        <li>
+                            <a href="view.php?dir=classes_obj&file=data">
+                                <span class="number">02.</span> Desafio Data
+                            </a>
+                        </li>
+                        <li>
+                            <a href="view.php?dir=classes_obj&file=const_dest">
+                                <span class="number">03.</span> Construtor e Destrutor
+                            </a>
+                        </li>
+                        <li>
+                            <a href="view.php?dir=classes_obj&file=heranca">
+                                <span class="number">04.</span> Herança
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="modulo vermelho-escuro">
                     <h3>Módulo PHP - Funções</h3>
                     <ul>
