@@ -55,6 +55,11 @@
                                 <span class="number">04.</span> Herança
                             </a>
                         </li>
+                        <li>
+                            <a href="view.php?dir=classes_obj&file=visibilidade">
+                                <span class="number">05.</span> Visibilidade
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">
