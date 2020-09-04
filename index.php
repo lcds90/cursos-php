@@ -10,7 +10,7 @@
 
 <body>
     <header class="cabecalho">
-        <h1>Curso de PHP</h1>
+        <h1>Curso PHP</h1>
         <h2>Índice dos Exercicios</h2>
     </header>
 
@@ -58,6 +58,21 @@
                         <li>
                             <a href="view.php?dir=classes_obj&file=visibilidade">
                                 <span class="number">05.</span> Visibilidade
+                            </a>
+                        </li>
+                        <li>
+                            <a href="view.php?dir=classes_obj&file=static">
+                                <span class="number">06.</span> Membros Estáticos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="view.php?dir=classes_obj&file=interface">
+                                <span class="number">07.</span> Interface
+                            </a>
+                        </li>
+                        <li>
+                            <a href="view.php?dir=classes_obj&file=abstract">
+                                <span class="number">08.</span> Classe Abstrata
                             </a>
                         </li>
                     </ul>
