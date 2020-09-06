@@ -14,6 +14,26 @@
                         </li>
                     </ul>
                 </div>
+                <div class="modulo laranja-escuro">
+                    <h3>Módulo PHP - Namespace</h3>
+                    <ul>
+                        <li>
+                            <a href="view.php?dir=namespace&file=basico">
+                                <span class="number">01.</span> Básico
+                            </a>
+                        </li>
+                        <li>
+                            <a href="view.php?dir=namespace&file=sub_namespaces">
+                                <span class="number">02.</span> Sub namespaces
+                            </a>
+                        </li>
+                        <li>
+                            <a href="view.php?dir=namespace&file=use_as">
+                                <span class="number">03.</span> Use/As
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="modulo roxo-escuro">
                     <h3>Módulo PHP - Include</h3>
                     <ul>

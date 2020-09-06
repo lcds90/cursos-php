@@ -128,7 +128,7 @@ body {
 }
 
 .modulo {
-  flex-basis: 45%;
+  flex-basis: 25%;
   margin-bottom:15px;
   padding:15px;
   border-radius:5px;
@@ -207,6 +207,9 @@ body {
 
 .modulo.roxo-escuro { border: 1px dotted #4a148c;}
 .modulo.roxo-escuro > h3 {background-color: #4a148c;}
+
+.modulo.laranja-escuro { border: 1px dotted #E65527;}
+.modulo.laranja-escuro > h3 {background-color: #E65227;}
 
 .modulo {
   border-left:none !important;
