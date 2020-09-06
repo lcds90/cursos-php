@@ -11,13 +11,15 @@ body {
   height: 100vh;
   margin: 0px;
   display: grid;
-  grid-template-rows: 150px 1fr 30px;
+  grid-template-rows: 120px 30px 1fr 30px;
   grid-template-columns: 1fr;
   grid-template-areas:
-    "cabecalho"
-    "principal"
-    "rodape";
+  "cabecalho"
+  "navegacao"
+  "principal"
+  "rodape"
 }
+
 
 .cabecalho {
   grid-area: cabecalho;
@@ -83,6 +85,37 @@ body {
     rgb(229, 229, 229) 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+
+.navegacao {
+  grid-area:navegacao;
+  display:flex;
+  justify-content: flex-end;
+  align-items:center;
+  background-color:#555;
+  padding:10px;
+}
+
+.navegacao > a {
+  text-decoration:none;
+  color:#fff;
+  font-weight:300;
+  font-size:1.2rem;
+  padding:5px 3vw;
+  margin-right:0px;
+}
+
+.navegacao > a.verde { background-color:#4CAF50;}
+.navegacao > a.vermelho { background-color:#F44336;}
+.navegacao > a.azul { background-color:#0d47a1;}
+
+span.usuario {
+  flex-grow: 1;
+  justify-self: flex-start;
+  color:#eee;
+  font-weight:300;
+  padding-left:15px;
+  font-size:.9rem;
 }
 
 .rodape {

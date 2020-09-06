@@ -14,10 +14,16 @@ if (!$_SESSION['email']) {
     $_SESSION['email'] = 'leo@leo.com';
 }
 
+echo 'Request_URI -> '. $_SERVER['REQUEST_URI'] . '<br>';
+echo 'Query_String -> '. $_SERVER['QUERY_STRING'], '<br>';
+echo 'Document_Root -> '. $_SERVER['DOCUMENT_ROOT'], '<br>';
+echo 'http://' . $_SERVER['HTTP_HOST'] . '<br>';
+echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
 ?>
 
 <p>
-    <a href="/session/basico_alterar.php">
+    <a href="http://<?= $_SERVER['HTTP_HOST']; ?>/cursos-php/sessao/basico_alterar.php">
         Alterar Sessão
     </a>
 </p>

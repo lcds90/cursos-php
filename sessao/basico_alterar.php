@@ -13,7 +13,6 @@ $_SESSION['email'] = 'leonardo@leonardo.com';
     <b>Email: </b> <?= $_SESSION['email']; ?><br>
 </p>
 
-
 <p>
     <a href="basico.php">Voltar</a><br>
     <a href="basico_limpar.php">Limpar Sessão</a>

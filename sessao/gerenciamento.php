@@ -19,8 +19,7 @@ if($_SESSION['contador'] >= 15){
 /* 
 
 Por questões de segurança,
-é melhor regenera-lo
-apesar de ser complicado,
-melhor para evitar roubos de sessões
+é melhor regenera-lo,
+evitando roubos de sessões
 
 */
