@@ -27,6 +27,11 @@
                                 <span class="number">02.</span> Erros Personalizados
                             </a>
                         </li>
+                        <li>
+                            <a href="view.php?dir=tratamento_erro&file=desafio_tratamento">
+                                <span class="number">03.</span> Desafio Tratamento de Erros
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo laranja-escuro">
