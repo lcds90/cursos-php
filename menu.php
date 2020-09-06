@@ -1,6 +1,16 @@
 <nav class="modulos">
+<div class="modulo azul">
+                    <h3 style="font-size:.6rem;">API - Application Programming Interface</h3>
+                    <ul>
+                        <li>
+                            <a href="view.php?dir=api&file=datas">
+                                <span class="number">01.</span> Datas
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="modulo vermelho">
-                    <h3>Módulo PHP - Session</h3>
+                    <h3>Session</h3>
                     <ul>
                         <li>
                             <a href="view.php?dir=sessao&file=basico">
@@ -15,7 +25,7 @@
                     </ul>
                 </div>
                 <div class="modulo verde">
-                    <h3>Módulo PHP - Tratamento de Erros</h3>
+                    <h3>Tratamento de Erros</h3>
                     <ul>
                         <li>
                             <a href="view.php?dir=tratamento_erro&file=try_catch">
@@ -40,7 +50,7 @@
                     </ul>
                 </div>
                 <div class="modulo laranja-escuro">
-                    <h3>Módulo PHP - Namespace</h3>
+                    <h3>Namespace</h3>
                     <ul>
                         <li>
                             <a href="view.php?dir=namespace&file=basico">
@@ -60,7 +70,7 @@
                     </ul>
                 </div>
                 <div class="modulo roxo-escuro">
-                    <h3>Módulo PHP - Include</h3>
+                    <h3>Include</h3>
                     <ul>
                         <li>
                             <a href="view.php?dir=includes&file=include">
@@ -95,7 +105,7 @@
                     </ul>
                 </div>
                 <div class="modulo azul-escuro">
-                    <h3>Módulo PHP - Orientação a Objetos</h3>
+                    <h3>Orientação a Objetos</h3>
                     <ul>
                         <li>
                             <a href="view.php?dir=classes_obj&file=classe">
@@ -170,7 +180,7 @@
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">
-                    <h3>Módulo PHP - Funções</h3>
+                    <h3>Funções</h3>
                     <ul>
                         <li>
                             <a href="view.php?dir=funcoes&file=escopo">
@@ -225,7 +235,7 @@
                     </ul>
                 </div>
                 <div class="modulo verde-escuro">
-                    <h3>Módulo PHP - Repetições</h3>
+                    <h3>Repetições</h3>
                     <ul>
                         <li>
                             <a href="view.php?dir=repeticao&file=for">
@@ -250,7 +260,7 @@
                     </ul>
                 </div>
                 <div class="modulo laranja">
-                    <h3>Módulo PHP - Arrays</h3>
+                    <h3>Arrays</h3>
                     <ul>
                         <li>
                             <a href="view.php?dir=array&file=basico">
@@ -295,7 +305,7 @@
                     </ul>
                 </div>
                 <div class="modulo roxo">
-                    <h3>Módulo PHP - Estrutura de Controle</h3>
+                    <h3>Estrutura de Controle</h3>
                     <ul>
                         <li>
                             <a href="view.php?dir=controle&file=if_else">
@@ -325,7 +335,7 @@
                     </ul>
                 </div>
                 <div class="modulo azul">
-                    <h3>Módulo PHP - Váriaveis</h3>
+                    <h3>Váriaveis</h3>
                     <ul>
                         <li>
                             <a href="view.php?dir=variaveis&file=basico">
@@ -335,7 +345,7 @@
                     </ul>
                 </div>
                 <div class="modulo vermelho">
-                    <h3>Módulo PHP - Tipos Básico</h3>
+                    <h3>Tipos Básico</h3>
                     <ul>
                         <li>
                             <a href="view.php?dir=tipos&file=literal">
@@ -386,7 +396,7 @@
                     </ul>
                 </div>
                 <div class="modulo verde">
-                    <h3>Módulo PHP - HTML/CSS</h3>
+                    <h3>HTML/CSS</h3>
                     <ul>
                         <li>
                             <a href="view.php?dir=basico&file=ola">

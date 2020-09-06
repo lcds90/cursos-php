@@ -24,7 +24,7 @@ if (!isset($_SESSION['usuario'])) {
 <body>
     <header class="cabecalho">
         <h1>Curso PHP</h1>
-        <h2>Índice dos Exercicios</h2>
+        <h2>Índice do curso e seus módulos</h2>
     </header>
     <nav class="navegacao">
         <span class="usuario">Usuário: <?= $_SESSION['usuario']; ?></span>
