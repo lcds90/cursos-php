@@ -159,7 +159,7 @@ body {
   padding: 5px;
   cursor:pointer;
   font-size:.9rem;
-  transition:all .5s ease-in-out;
+ 
 }
 
 .modulo > ul > li > a {
@@ -168,7 +168,7 @@ body {
   text-decoration:none;
   color:#ff00bf;
   border-bottom:.2px solid rgba(0,0,0,.2);
-  transition: all .8s ease-in-out;
+ 
 }
 
 .modulo > ul > li:hover {
