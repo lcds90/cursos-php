@@ -14,6 +14,21 @@
                         </li>
                     </ul>
                 </div>
+                <div class="modulo verde">
+                    <h3>Módulo PHP - Tratamento de Erros</h3>
+                    <ul>
+                        <li>
+                            <a href="view.php?dir=tratamento_erro&file=try_catch">
+                                <span class="number">01.</span> Try & Catch
+                            </a>
+                        </li>
+                        <li>
+                            <a href="view.php?dir=tratamento_erro&file=erros_personalizados">
+                                <span class="number">02.</span> Erros Personalizados
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="modulo laranja-escuro">
                     <h3>Módulo PHP - Namespace</h3>
                     <ul>
