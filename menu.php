@@ -32,6 +32,11 @@
                                 <span class="number">03.</span> Desafio Tratamento de Erros
                             </a>
                         </li>
+                        <li>
+                            <a href="view.php?dir=tratamento_erro&file=gerenciador_erro">
+                                <span class="number">04.</span> Error Handlers
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo laranja-escuro">
