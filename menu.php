@@ -1,10 +1,15 @@
 <nav class="modulos">
 <div class="modulo azul">
-                    <h3 style="font-size:.6rem;">API - Application Programming Interface</h3>
+                    <h3>API - Application Programming Interface</h3>
                     <ul>
                         <li>
                             <a href="view.php?dir=api&file=datas">
                                 <span class="number">01.</span> Datas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="view.php?dir=api&file=write">
+                                <span class="number">02.</span> Escrever Arquivo
                             </a>
                         </li>
                     </ul>
