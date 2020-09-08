@@ -12,6 +12,16 @@
                                 <span class="number">02.</span> Escrever Arquivo
                             </a>
                         </li>
+                        <li>
+                            <a href="view.php?dir=api&file=read">
+                                <span class="number">03.</span> Lendo Arquivo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="view.php?dir=api&file=upload">
+                                <span class="number">04.</span> Upload
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho">
