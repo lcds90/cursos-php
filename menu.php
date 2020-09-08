@@ -22,6 +22,16 @@
                                 <span class="number">04.</span> Upload
                             </a>
                         </li>
+                        <li>
+                            <a href="view.php?dir=api&file=download">
+                                <span class="number">05.</span> Download
+                            </a>
+                        </li>
+                        <li>
+                            <a href="view.php?dir=api&file=imagens">
+                                <span class="number">06.</span> Desafio Imagens
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho">
