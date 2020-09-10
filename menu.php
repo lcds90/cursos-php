@@ -1,4 +1,34 @@
 <nav class="modulos">
+    <div class="modulo laranja">
+        <h3>Banco de Dados</h3>
+        <ul>
+            <li>
+                <a href="view.php?dir=db&file=criar_banco">
+                    <span class="number">01.</span> Criar Banco
+                </a>
+            </li>
+            <li>
+                <a href="view.php?dir=db&file=criar_tabela">
+                    <span class="number">02.</span> Criar Tabela
+                </a>
+            </li>
+            <li>
+                <a href="view.php?dir=db&file=inserir01">
+                    <span class="number">03.</span> Inserir Registro (Método 1)
+                </a>
+            </li>
+            <li>
+                <a href="view.php?dir=db&file=inserir02">
+                    <span class="number">04.</span> Inserir Registro (Método 2)
+                </a>
+            </li>
+            <li>
+                <a href="view.php?dir=db&file=consultar">
+                    <span class="number">05.</span> Consultar Registros
+                </a>
+            </li>
+        </ul>
+    </div>
     <div class="modulo roxo">
         <h3>Formulário</h3>
         <ul>
