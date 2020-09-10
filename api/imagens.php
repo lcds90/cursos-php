@@ -6,7 +6,7 @@ ini_set('display_errors', 0);
 
 $arq = $_SESSION['arquivos'] ?? [];
 
-$pasta = __DIR__;
+$pasta = __DIR__ . '/api';
 $nomeArq = $_FILES['arquivo']['name'];
 $arquiv = $pasta . $nomeArq;
 $tmps = $_FILES['arquivo']['tmp_name'];
@@ -27,11 +27,12 @@ if (move_uploaded_file($tmps, $arquiv)) {
 
 <ul>
     <?php foreach ($arq as $arquivo) : ?>
+    <?php if(stripos($arquivo, '.jpg') > 0) : ?>
         <li>
-            <a href="<?= __DIR__ . $arquivo ?>">
-                <?= $arquivo ?>
-            </a>
+            <img src="api/api<?= $arquivo ?>" height="120">
+               
         </li>
+    <?php endif ?>
     <?php endforeach ?>
 </ul>
 <style>
