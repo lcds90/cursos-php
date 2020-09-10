@@ -23,7 +23,8 @@ if(!isset($_SESSION['usuario'])){
     </header>
 <nav class="navegacao">
 <span class="usuario">Usuário: <?= $_SESSION['usuario']; ?></span>
-    <a href=<?="/{$_GET['dir']}/{$_GET['file']}.php"?> class="verde">Sem formatação</a>
+
+    <a href='<?php echo "/cursos-php/" . $_GET['dir'] . "/" . $_GET['file'] . ".php"; ?>' class="verde">Sem formatação</a>
     <a href="index.php" class="azul">Voltar</a>
     <a href="logout.php" class="vermelho">Sair</a>
 </nav>
