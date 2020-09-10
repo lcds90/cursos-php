@@ -4,7 +4,12 @@
         <ul>
             <li>
                 <a href="view.php?dir=formulario&file=form">
-                    <span class="number">01.</span> Formulário
+                    <span class="number">01.</span> Formulário (if ternario)
+                </a>
+            </li>
+            <li>
+                <a href="view.php?dir=formulario&file=form_alt">
+                    <span class="number">02.</span> Formulário (foreach)
                 </a>
             </li>
         </ul>

@@ -43,56 +43,41 @@ if (count($_POST) > 0) {
 }
 ?>
 
-
+<?php
+foreach($erros as $erro) : ?>
+<div class="alert alert-danger" role="alert">
+  <?= $erro ?>
+</div>
+<?php endforeach ?>
 <form action="#" method="post">
     <div class="form-row">
         <div class="form-group col-md-9">
             <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome"
-            class="form-control <?= $erros['nome'] ? 'is-invalid' : '' ?>" value="<?= $_POST['nome'] ?>" placeholder="Nome">
-            <div class="invalid-feedback">
-                <?= $erros['nome'] ?>
-            </div>
+            <input type="text" name="nome" id="nome" class="form-control" value="<?= $_POST['nome'] ?>" placeholder="Nome">
         </div>
         <div class="form-group col-md-3">
             <label for="nascimento">Nascimento</label>
-            <input type="text" name="nascimento" id="nascimento"
-            class="form-control <?= $erros['nascimento'] ? 'is-invalid' : '' ?> " value="<?= $_POST['nascimento'] ?>" placeholder="Nascimento">
-            <div class="invalid-feedback">
-                <?= $erros['nascimento'] ?>
-            </div>
+            <input type="text" name="nascimento" id="nascimento" class="form-control" value="<?= $_POST['nascimento'] ?>" placeholder="Nascimento">
         </div>
     </div>
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="email">E-mail</label>
-            <input type="text" name="email" id="email" class="form-control <?= $erros['email'] ? 'is-invalid' : '' ?>" value="<?= $_POST['email'] ?>" placeholder="Email">
-            <div class="invalid-feedback">
-                <?= $erros['email'] ?>
-            </div>
+            <input type="text" name="email" id="email" class="form-control" value="<?= $_POST['email'] ?>" placeholder="Email">
         </div>
         <div class="form-group col-md-6">
             <label for="nascimento">Site</label>
-            <input type="text" name="site" id="site" class="form-control <?= $erros['site'] ? 'is-invalid' : '' ?>" value="<?= $_POST['site'] ?>" placeholder="Site">
-            <div class="invalid-feedback">
-                <?= $erros['nascimento'] ?>
-            </div>
+            <input type="text" name="site" id="site" class="form-control" value="<?= $_POST['site'] ?>" placeholder="Site">
         </div>
     </div>
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="filhos">Quantidade Filhos</label>
-            <input type="text" name="filhos" id="filhos" class="form-control <?= $erros['filhos'] ? 'is-invalid' : '' ?>" value="<?= $_POST['filhos'] ?>" placeholder="Quantidade de Filhos">
-            <div class="invalid-feedback">
-                <?= $erros['filhos'] ?>
-            </div>
+            <input type="text" name="filhos" id="filhos" class="form-control" value="<?= $_POST['filhos'] ?>" placeholder="Quantidade de Filhos">
         </div>
         <div class="form-group col-md-6">
-            <label for="salario">Salário</label>
-            <input type="text" name="salario" id="salario" class="form-control <?= $erros['salario'] ? 'is-invalid' : '' ?>" value="<?= $_POST['salario'] ?>" placeholder="Salário">
-            <div class="invalid-feedback">
-                <?= $erros['salario'] ?>
-            </div>
+            <label for="nascimento">Salário</label>
+            <input type="text" name="salario" id="salario" class="form-control" value="<?= $_POST['salario'] ?>" placeholder="Salário">
         </div>
     </div>
     <button class="btn btn-success btn-lg">Enviar</button>
