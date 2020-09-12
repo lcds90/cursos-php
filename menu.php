@@ -14,17 +14,52 @@
             </li>
             <li>
                 <a href="view.php?dir=db&file=inserir01">
-                    <span class="number">03.</span> Inserir Registro (Método 1)
+                    <span class="number">03.</span> I - Inserir Registro
                 </a>
             </li>
             <li>
                 <a href="view.php?dir=db&file=inserir02">
-                    <span class="number">04.</span> Inserir Registro (Método 2)
+                    <span class="number">04.</span> II - Inserir Registro
                 </a>
             </li>
             <li>
                 <a href="view.php?dir=db&file=consultar">
                     <span class="number">05.</span> Consultar Registros
+                </a>
+            </li>
+            <li>
+                <a href="view.php?dir=db&file=excluir01">
+                    <span class="number">06.</span> I - Excluir Registro
+                </a>
+            </li>
+            <li>
+                <a href="view.php?dir=db&file=excluir02">
+                    <span class="number">07.</span> II - Excluir Registro
+                </a>
+            </li>
+            <li>
+                <a href="view.php?dir=db&file=alterar">
+                    <span class="number">08.</span> Alterar Registro
+                </a>
+            </li>
+            <li>
+                <a href="view.php?dir=db&file=pdo_inserir">
+                    <span class="number">09.</span> PDO: Inserir Registro
+                </a>
+            </li>
+            <li>
+                <a href="view.php?dir=db&file=pdo_consultar">
+                    <span class="number">10.</span> PDO: Consultar Registro
+                </a>
+            </li>
+            <li>
+                <a href="view.php?dir=db&file=pdo_excluir">
+                    <span class="number">11.</span> PDO: Excluir Registro
+                </a>
+            </li>
+            <li>
+                <a href="view.php?dir=db&file=pdo_alterar">
+                    <span class="number">11.</span> PDO: Alterar Registro
                 </a>
             </li>
         </ul>
@@ -229,12 +264,12 @@
             </li>
             <li>
                 <a href="view.php?dir=classes_obj&file=traits01">
-                    <span class="number">11.</span> 01 - Traits
+                    <span class="number">11.</span> I - Traits
                 </a>
             </li>
             <li>
                 <a href="view.php?dir=classes_obj&file=traits02">
-                    <span class="number">12.</span> 02 - Traits
+                    <span class="number">12.</span> II - Traits
                 </a>
             </li>
             <li>
